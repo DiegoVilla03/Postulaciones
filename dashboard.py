@@ -11,7 +11,7 @@ st.set_page_config(page_title="Dashboard de Postulaciones", layout="wide")
 
 st.title("Seguimiento de Postulaciones de Empleo")
 
-EXCEL_FILE = r"data\Postulaciones.xlsx"
+EXCEL_FILE = r"data/Postulaciones.xlsx"
 
 if not Path(EXCEL_FILE).exists():
     st.error(f"No se encontró el archivo `{EXCEL_FILE}` en el directorio actual.")
